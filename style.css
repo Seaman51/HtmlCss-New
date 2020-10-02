@@ -2,36 +2,43 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: sans-serif;
 }
+
 .container {
     max-width: 1366px;
     margin: 0 auto;
 }
-.top{
+
+.top {
     height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     padding-top: 42px;
 }
-.top__box{
+
+.top__box {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
-.top_info{
+
+.top_info {
     padding-top: 189px;
     flex-grow: 1;
     background-image: url(img/top_back.svg);
     background-repeat: no-repeat;
     background-position: right center;
 }
-.top_heading{
+
+.top_heading {
     width: 510px;
     font-size: 64px;
     color: #1f3f68;
@@ -40,17 +47,29 @@ body {
     letter-spacing: 0.04em;
     margin-bottom: 32px;
 }
-.text{
+
+.heading {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.text {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #1F3F68;
     opacity: 0.6;
 }
-.top_text{
+
+.top_text {
     width: 425px;
 }
-.top_button{
+
+.top_button {
     font-size: 16px;
     text-align: center;
     line-height: 26px;
@@ -64,13 +83,48 @@ body {
     display: inline-block;
     margin-top: 71px;
 }
-.what-we-do{
+
+.what-we-do {
+    padding-top: 64px;
+}
+
+.card-box {
     display: flex;
     justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
-.card{
-    border: 1px solid #000;
+
+.card {
     width: 359px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.card__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.card__link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+
+.header-mini {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-bottom: 14px;
 }
 
 p,
@@ -80,25 +134,30 @@ p,
     margin-left: 10px;
     color: #1F3F68;
 }
+
 h1,
 .header1 {
     font-size: 64px;
     color: #1F3F68;
 }
-.main_content{
+
+.main_content {
     border: 1px solid #000;
     width: 425px;
 }
+
 .header2 {
     font-weight: 500;
     font-size: 44px;
     text-align: center;
 }
+
 h3,
 .header3 {
     font-size: 36px;
     text-align: center;
 }
+
 h4,
 .header4 {
     font-size: 20px;
@@ -114,7 +173,7 @@ h4,
     margin-top: 10px;
 }
 
-.button{
+.button {
     background: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
@@ -129,55 +188,62 @@ h4,
     margin-right: 24px;
 }
 
-.footer{
-    background-color:#7db7e9;
+.footer {
+    background-color: #7db7e9;
 }
-.footer ul li{
+
+.footer ul li {
     font: bold 15px Arial, Verdana;
-    color:#7db7e9;
-    border-radius: 15px; 
+    color: #7db7e9;
+    border-radius: 15px;
     padding: 7px;
-    background: #ffffff; 
+    background: #ffffff;
     text-align: center;
     text-transform: uppercase;
 }
 
-.footer ul a{
-    color:#7db7e9;
+.footer ul a {
+    color: #7db7e9;
     text-decoration: none;
 }
-.footer_content{
+
+.footer_content {
     border: 1px solid #000;
     width: 495px;
 }
-.footer_content h4{
+
+.footer_content h4 {
     border: 1px solid #000;
     width: 340px;
 }
-.main_header{
+
+.main_header {
     border: 1px solid #000;
     color: white;
     background: #7db7e9;
 }
-.send_form{
+
+.send_form {
     box-shadow: 0 0 50px rgba(8, 60, 95, 0.87);
     border-radius: 15px;
     padding: 20px;
     width: 230px;
     margin-top: 20px;
     margin-left: auto;
-    float: right;  
+    float: right;
 }
-.info{
+
+.info {
     margin-top: 20px;
     margin-right: 290px;
     padding: 20px;
     overflow: hidden;
 }
-.map{
+
+.map {
     width: 600px;
     height: 500px;
-   
+
     margin: auto;
     margin-top: 20px;
     box-shadow: 0 0 50px rgba(8, 60, 95, 0.87);
