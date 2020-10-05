@@ -111,6 +111,11 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    transition: transform .2s; /* Animation */
+}
+
+.card:hover {
+  transform: scale(1.05); 
 }
 
 .card__img {
