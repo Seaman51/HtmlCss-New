@@ -5,7 +5,7 @@
 
 body {
     font-family: sans-serif;
-   
+
 }
 
 .container {
@@ -65,13 +65,15 @@ body {
     color: #1F3F68;
     opacity: 0.6;
 }
-.text_project{
+
+.text_project {
     width: 75%;
     margin: 32px auto 64px;
     text-align: center;
     color: #222222;
     opacity: 1;
 }
+
 .top_text {
     width: 425px;
 }
@@ -114,8 +116,8 @@ body {
 }
 
 .card__img {
- align-self: center;
-margin-bottom: 51px;
+    align-self: center;
+    margin-bottom: 51px;
 }
 
 .card__link {
@@ -134,43 +136,49 @@ margin-bottom: 51px;
     color: #1F3F68;
     margin-bottom: 14px;
 }
-.project{
 
-}
-.project__img{
+.project {}
+
+.project__img {
     width: 100%;
     background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
-border-radius: 10px;
+    border-radius: 10px;
 }
-.project__item{
+
+.project__item {
     position: relative;
     flex-grow: 1;
 }
-.project__item_margin{
+
+.project__item_margin {
     margin-right: 32px;
 }
-.project__text{
+
+.project__text {
     position: absolute;
     font-size: 32px;
     line-height: 46px;
     text-align: right;
     letter-spacing: 0.05em;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     top: 64px;
     right: 64px;
 }
-.project__text_left{
+
+.project__text_left {
     font-size: 28px;
     line-height: 46px;
     top: 32px;
     left: 32px;
     text-align: left;
 }
-.project__parent{
+
+.project__parent {
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
 }
+
 .par {
     font-size: 16px;
     line-height: 26px;
@@ -230,33 +238,29 @@ border-radius: 10px;
     margin-right: 24px;
 }
 
-.footer {
-    background-color: #7db7e9;
-}
-
-.footer ul li {
-    font: bold 15px Arial, Verdana;
-    color: #7db7e9;
-    border-radius: 15px;
-    padding: 7px;
-    background: #ffffff;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.footer ul a {
-    color: #7db7e9;
-    text-decoration: none;
-}
-
 .footer_content {
-    border: 1px solid #000;
-    width: 495px;
+    height: 657px;
+    background: #316099;
+    margin-top: 115px;
+    padding: 90px 115px;
 }
 
-.footer_content h4 {
-    border: 1px solid #000;
+.header_footer_content {
     width: 340px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF
+}
+
+.text_footer_content {
+    width: 495px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-top: 32px;
 }
 
 .main_header {
