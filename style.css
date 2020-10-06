@@ -177,6 +177,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 32px;
+    margin-bottom: 112px;
 }
 
 .par {
@@ -237,32 +238,96 @@ body {
     margin-left: 15px;
     margin-right: 24px;
 }
-
-.footer_content {
-    height: 657px;
+.footer {
+    
     background: #316099;
-    margin-top: 115px;
-    padding: 90px 115px;
+    width: 100%;
 }
 
-.header_footer_content {
+.footer__item {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.footer__head {
     width: 340px;
+    text-align: start;
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
-    color: #FFFFFF
+    color: #FFFFFF;
+    padding-top: 91px;
+    padding-bottom: 32px;
+    
 }
-
-.text_footer_content {
-    width: 495px;
+.footer__text{
+    max-width: 495px;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
     opacity: 0.6;
-    padding-top: 32px;
+}
+.footer__button{
+    background: #5A98D0;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 80px;
+    position: absolute;
+    top: 165px;
+    right: 114px;
+    display: inline-block;
 }
 
+.footer__line{
+    margin-top: 90px;
+    margin-bottom: 64px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    
+}
+.footer__contact-list {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.footer__contact-list-item{
+    display: flex;
+    flex: 1;
+}
+.footer__list{
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-right: 32px;
+}
+.litera{
+    margin-right: 20px;
+
+}
+.copyright {
+    margin: 0 auto;
+    max-width: 1140px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+}
 .main_header {
     border: 1px solid #000;
     color: white;
